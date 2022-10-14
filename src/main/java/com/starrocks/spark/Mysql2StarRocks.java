@@ -68,7 +68,7 @@ public class Mysql2StarRocks {
                 .option("password", destPassowrd)
                 //其它选项
                 //指定你要写入的字段
-                //.option("doris.write.fields","$YOUR_FIELDS_TO_WRITE")
+                //.option("starrocks.write.fields","$YOUR_FIELDS_TO_WRITE")
                 .option("starrocks.max.filter.ratio",filterRatio)
                 .save();
     }
