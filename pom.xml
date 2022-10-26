@@ -103,6 +103,12 @@
         </dependency>
 
         <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>9.2.1.jre8</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.starrocks.connector</groupId>
             <artifactId>spark</artifactId>
             <version>1.0.1</version>
